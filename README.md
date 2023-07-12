@@ -1,8 +1,8 @@
 # Corrosion Detection on Steel Bridge Image Dataset
 
-This repository includes the implementation for identifying corrosion appeared on steel bridge images based on the Mask R-CNN.
+This repository includes the implementation for identifying corrosion that appeared on steel bridge images based on Mask R-CNN.
 
-<p align="center"> <img src="assets/corrosion_sample.png" alt="example" width="450px"/> </p>
+<p align="center"> <img src="assets/corrosion_sample.png" alt="example" width="600px"/> </p>
 
 ## Getting Started
 
