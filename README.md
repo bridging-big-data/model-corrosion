@@ -6,6 +6,15 @@ This repository includes the implementation for identifying corrosion that appea
 
 ## Getting Started
 
+To train the model, run the following command
+```
+python -W ignore corrosion.py \
+ train \
+ --dataset=<dataset_path> \
+ --weights=<checkpoint_path> \
+ --logs=<path_to_save_log> \
+```
+
 * [corrosion.py](corrosion/corrosion.py): build a model and set configuration s.t. training parameters
 * [data.ipynb](corrosion/data.ipynb): analyze data before training
 * [model.ipynb](corrosion/model.ipynb): inspect the model before training
@@ -16,9 +25,9 @@ This repository includes the implementation for identifying corrosion that appea
 ## Dataset
 
 The original dataset was referenced from 
-'''
+```
 Bianchi, Eric; Hebdon, Matthew (2021). Corrosion Condition State Semantic Segmentation Dataset. University Libraries, Virginia Tech. Dataset. https://doi.org/10.7294/16624663.v2
-'''
+```
 and processed to train with instances for this repo.
 
 
